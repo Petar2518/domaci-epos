@@ -1,0 +1,81 @@
+﻿<html>
+	<head>
+		<title>VANILICA</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/slatke_zanimljivosti.css" type="text/css">
+	</head>
+<body>
+		<header class="flex">
+			<div id="logo">
+				<a href="index.html">
+				<h1>VANILICA</h1>
+				<div id="logo_img">
+				
+						<img src="images/vanilica2.png">
+					</a>
+				</div>
+			</div>
+			
+			
+			<nav>
+				<ul class="flex">
+					<li><a href="index.html">Početna</a></li>
+					<li><a href="o_nama.html">O nama</a></li>
+					<li><a href="torte_kolaci.html">Torte i kolači</a></li>
+					<li><a class="active" href="#">Slatke zanimljivosti</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div id="content" class="flex">
+			<div id="left_content">
+				<div id="naslov">
+					<h1>FUN</h1>
+					<h1>FACTS:</h1>
+					<h2>Ukoliko želite da<br>primate naš newsletter<br>popunite sledeće podatke: </h2>
+				</div>
+				
+				<form name=”form” method=”post” onsubmit="return proveriSZ(this)">
+					<input type="text" name="name" placeholder="Ime i prezime">
+					<input type="text" name="email" placeholder="E-mail"><br>
+					<div id="Pol">
+						<label for="pol">Pol: </label>
+						<select>
+							<option value="zenski">Ženski</option>
+							<option value="muski">Muški</option>
+						</select></div><br>
+					<div id="datum">
+						<label for="date">Datum rođenja:</label>
+						<input id="date" type="date">
+					</div>
+					<button type="submit" id="submit">Pošalji</button>
+				</form>
+			</div>
+			
+			<div id="right_content" class="flex">
+				<div class="zanimljivost"><div class="naslov">CRNA</div><img src="images/zanimljivosti/crna.png"><p>Od svih vrsta čokolade, tamna, crna čokolada se smatra za najzdraviju i najkvalitetniju i to sa razlogom. Tamna čokolada sadrži minimum 50% kakao delova (mlečna ima 30%), dakle najveći procenat kakao zrna, uz šećer, vanilu, soju lecitin. Može biti slatka ili gorka, ali ono što je najbitnije u celoj priči o zdravlju je osnovni sastojak – kakao. </p></div>				
+				<div class="zanimljivost"><div class="naslov">RUBY</div><img src="images/zanimljivosti/ruby.png"><p>Svi znamo za crnu čokoladu, belu čokoladu, i mlečnu čokoladu, ali ružičasta, pink čokolada? Da, dobro ste čuli. Ime je dobila po specijalnoj kakao biljci Rubi, koja raste u Ekvadoru, Brazilu i Obali Slonovače, a tvorac je Barry Callebaut. Specifična prirodna ružičasta boja je dobijena posebnim postupkom procesiranja zrna bez dodavanja veštačkih ukusa i boja.​</p></div>				
+				<div class="zanimljivost"><div class="naslov">BELA</div><img src="images/zanimljivosti/bela.png"><p>Svaka čokolada, osim bele, dobija se iz kakao putera, kakao mase, arome vanile i emulgatora sojinog lecitina. Glavni pozitivni učinci čokolade potiču upravo iz kakao mase i što je njen procenat u čokoladi veći, to više pogoduje našem zdravlju. Iako vrlo ukusna, bela čokolada je, što se nutritivnog profila tiče, najmanje poželjna vrsta čokolade!​</p></div>				
+				<div class="zanimljivost"><div class="naslov">MLEČNA</div><img src="images/zanimljivosti/mlecna.png"><p>Novi, viši antioksidativni oblik mlečne čokolade može da se proizvede recikliranjem ostataka hrane koji bi inače otišli u otpad, poput kafe, odbačenih listova čaja i kore kikirikija. Ovi poljoprivredni otpadni proizvodi su "zlatni minerali" antioksidanata, koji mogu da smanje upalu i zaštite od određenih hroničnih bolesti, tvrde istraživači.</p></div>				
+				<div class="zanimljivost"><div class="naslov">MED</div><img src="images/zanimljivosti/med.png"><p>Prvi pisani tragovi o korisćenju meda nađeni su na mesopotamijskim glinenim tablicama iz vremena pre Hrista. Stari Jevreji koristili su med kao lek u medicini ali i za pravljenje pića. Za proizvodnju 1kg meda pčela mora da poseti oko 10 miliona cvetova i da pri tom obavi oko 120 hiljada letova.​</p></div>				
+				<div class="zanimljivost"><div class="naslov">KARAMELA</div><img src="images/zanimljivosti/karamela.png"><p>​Karamela je vrsta tvrdih bombona, pravi se od šećera. Uglavnom su braon boje. Postoji i slana verzija karamele koju je napravio Henri Le Roux 1977. godine u formi caramel au beurre salé, koristeći Breton puter. Reč karamela potiče od španske reči “caramelo” (18. vek), što u prevodu znači šećerna trska.</p></div>				
+			</div>
+		</div>
+		
+		
+	<footer>
+		<div>
+			<p>Poslastičarnica Vanilica: Bulevar Zorana Đinđića 44, Beograd</p>
+			<p>Dizajneri sajta: <a href="mailto:pm20180025@student.fon.bg.ac.rs">Petar Milenković</a> i <a href="mailto:ak20180179@student.fon.bg.ac.rs">Aleksandra Kalimančević,</a> 2. domaći zadatak</p>
+		</div>
+		<div id="vreme">
+		
+			</div>
+			
+			</footer>
+</body>
+<script src="js/slatke_zanimljivosti.js"></script>
+<script src="js/vreme.js"></script>
+<script src="js/script.js"></script>
+</html>

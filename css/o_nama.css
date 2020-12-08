@@ -1,0 +1,41 @@
+#left_content{
+	width: 625px;
+	min-height: 436px;
+}
+#right_content {
+	width: 355px;
+}
+#content{
+	margin-top: 20px;
+}
+#naslov h1 {
+	color: white;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	width: 30%;
+	min-height: 45px;
+	background: rgb(136, 21, 111);
+	padding-left: 2%;
+	font-size: 45px;
+}
+#naslov .podnaslov{
+	color: white;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	width: 89%;
+	min-height: 45px;
+	background:rgb(136, 21, 111);
+	padding-left: 2%;
+	font-size: 37px;
+}
+#onama{
+	padding: 0 3%;
+	border-right: 2px dashed green;
+}
+#onama p{
+	margin-bottom: 5%;
+}
+#right_content img {
+	margin-top: 40%;
+	margin-left: 15%;
+}

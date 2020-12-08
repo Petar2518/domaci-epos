@@ -1,0 +1,107 @@
+#naslov h1 {
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 250px;
+	min-height: 45px;
+	background: rgb(136, 21, 111);
+	padding-left: 20px;
+	font-size: 45px;
+}
+#naslov h2 {
+	font: normal normal normal 17px/1.4em anton, sans-serif;
+}
+
+#left_content h2 {
+	padding-top: 100px;
+	padding-bottom: 20px;
+	text-align: center;
+	font: normal normal bold 17px/1.4em anton, sans-serif;
+}
+#left_content {
+	background-color:  rgb(223, 122, 169);
+	width: 300px;
+	margin-bottom: 2%;
+}
+form {
+	margin-top:10px;
+	width: 100%;
+	height: auto;
+}
+form input{
+	background-color: rgb(35, 27, 23);
+	font: normal normal normal 15px/1.4em tahoma, sans-serif;
+	color: rgb(255, 255, 255);
+	padding: 5px;
+	margin: 0px 0px 5px;
+	border: 0px solid transparent;
+	width: 100%;
+}
+
+#Pol select {
+	background-color: rgb(35, 27, 23);
+	font: normal normal normal 15px/1.4em tahoma, sans-serif;
+	color: rgb(255, 255, 255);
+	padding: 5px;
+	margin: 0px 0px 5px;
+	border: 0px solid transparent;
+}
+
+#Pol, #datum{
+	background-color: rgb(35, 27, 23);
+}
+#datum{
+	margin-top: -0.8em;
+}
+#date{
+	width: auto;
+}
+
+form label{
+	font: normal normal normal 15px/1.4em tahoma, sans-serif;
+	color: gray;
+	padding: 5px;
+	margin: 0px 0px 5px;
+}
+
+form button{
+	float: right;
+	border-radius: 0px;
+	background-color: rgb(226, 155, 47);
+	font: normal normal normal 15px/1.4em tahoma, sans-serif;
+	color: rgb(0, 0, 0);
+	padding: 5px;
+	border: none;
+	cursor: pointer;
+	margin: 0px;
+}
+#right_content {
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 670px;
+}
+#right_content .naslov{
+	width: 310px;
+	height: 50;
+	font: normal normal bold 33px/1.4em anton, sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 3px;
+	background-color:  rgb(136, 21, 111);
+	position: relative;
+	}
+#right_content .zanimljivost{
+	width: 310px;
+	float:left;
+	margin-left: 25px;
+}
+
+#right_content .zanimljivost img{
+	margin-top: -50px;
+}
+#right_content .zanimljivost p{
+	margin: 12px 0;
+	border-top: 1px dashed;
+	border-bottom: 1px dashed;
+}

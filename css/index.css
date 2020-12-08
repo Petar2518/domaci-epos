@@ -1,0 +1,83 @@
+#left_content{
+background-color:  rgb(228, 183, 208);
+padding-top: 30px;
+width: 340px;
+}
+#right_content{
+	margin-left: 1%;
+	padding-left: 15px;
+	width: auto;
+}
+#naslov{
+	width: 290;
+	background-color: rgb(180, 2, 142);
+	margin: 10 auto;
+	margin-bottom: 30px;
+}
+#naslov h1{
+	color: white;
+	font-size: 25;
+	text-align: center;
+	padding: 8px;
+}
+#naslov h3{
+	color: white;
+	font-size: 20;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 8px;
+}
+
+#sitni_kolaci{
+	width: 290px;
+	margin: 0 auto;
+	padding: 5px 0px 5px 0px;
+}
+body{
+	background-color:  rgb(228, 183, 208);
+}
+
+#sitni_kolaci img{
+	float: left;
+	padding-right: 10px;
+}
+#sitni_kolaci h3{
+	text-align: center;
+	padding: 18px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	position: left;
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
+#radnovreme{
+	width: 280px;
+	height: 100px;
+	margin: 12px auto;
+	border: 4px dotted;
+}
+#ponudameseca{
+	background-color: rgb(224, 167, 80);
+	margin: 20px auto;
+	width: 290px;
+	height: 225px;
+}
+#ponudameseca img{
+	border-radius: 50%;
+	float: right;
+	position: relative;
+	top: 5px;
+	right: 5px;
+}
+#ponudameseca h3{
+	color: white;
+	padding-top: 12px;
+	padding-left:8px;
+	font-size: 36px;
+}
+#ponudameseca p{
+	color: white;
+	padding: 10px;
+	padding-top: 20px;
+	font-weight: bold;
+}
