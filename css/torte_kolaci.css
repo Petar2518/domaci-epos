@@ -1,5 +1,5 @@
 #content div{
-	width: 200px;
+	flex-basis: 200px;
 }
 #content{
 	width: 70%;
